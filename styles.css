@@ -30,6 +30,9 @@ img {
   border-radius: 5px;
   background: #eee;
 }
+p{
+  font-size: 24px;
+}
 section{
   font-size: 20px;
   font-family: Segoe UI;
@@ -64,5 +67,31 @@ li{
       }
       li {
         line-height: 1.2rem;
+      }
+
+    }
+    @media  (max-width : 1080px) 
+    {
+      img{
+        width: 900px;
+        
+      }
+      p, section{
+        font-size: 14px;
+        margin: 50px;
+        line-height: 1.5;
+      }
+      li {
+        line-height: 3 rem;
+        margin-bottom: 5px;
+      }
+      h2{
+        font-size: 20px;
+        margin: 30px;
+        line-height: 1.7;
+      }
+      h1{
+        font-size: 90px;
+        margin: 30px;
       }
     }
